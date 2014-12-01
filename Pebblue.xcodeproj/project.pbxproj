@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7B180419B026F100FD9B24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7B180319B026F100FD9B24 /* QuartzCore.framework */; };
+		BFDB54981A2C158C00F00ECE /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB54961A2C158C00F00ECE /* PebbleKit.framework */; };
+		BFDB54991A2C158C00F00ECE /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB54971A2C158C00F00ECE /* PebbleVendor.framework */; };
+		BFE6CD71196ADCB000D7645D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD70196ADCB000D7645D /* Foundation.framework */; };
+		BFE6CD73196ADCB000D7645D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD72196ADCB000D7645D /* CoreGraphics.framework */; };
+		BFE6CD75196ADCB000D7645D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD74196ADCB000D7645D /* UIKit.framework */; };
+		BFE6CD7B196ADCB000D7645D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE6CD79196ADCB000D7645D /* InfoPlist.strings */; };
+		BFE6CD7D196ADCB000D7645D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6CD7C196ADCB000D7645D /* main.m */; };
+		BFE6CD81196ADCB000D7645D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6CD80196ADCB000D7645D /* AppDelegate.m */; };
+		BFE6CD87196ADCB000D7645D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE6CD85196ADCB000D7645D /* Main.storyboard */; };
+		BFE6CD8A196ADCB000D7645D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6CD89196ADCB000D7645D /* ViewController.m */; };
+		BFE6CD8C196ADCB000D7645D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE6CD8B196ADCB000D7645D /* Images.xcassets */; };
+		BFE6CD93196ADCB000D7645D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD92196ADCB000D7645D /* XCTest.framework */; };
+		BFE6CD94196ADCB000D7645D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD70196ADCB000D7645D /* Foundation.framework */; };
+		BFE6CD95196ADCB000D7645D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CD74196ADCB000D7645D /* UIKit.framework */; };
+		BFE6CD9D196ADCB000D7645D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE6CD9B196ADCB000D7645D /* InfoPlist.strings */; };
+		BFE6CD9F196ADCB000D7645D /* PebblueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6CD9E196ADCB000D7645D /* PebblueTests.m */; };
+		BFE6CDB4196AE38C00D7645D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDAE196AE38C00D7645D /* CFNetwork.framework */; };
+		BFE6CDB5196AE38C00D7645D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDAF196AE38C00D7645D /* CoreBluetooth.framework */; };
+		BFE6CDB6196AE38C00D7645D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDB0196AE38C00D7645D /* CoreMotion.framework */; };
+		BFE6CDB7196AE38C00D7645D /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDB1196AE38C00D7645D /* ExternalAccessory.framework */; };
+		BFE6CDB8196AE38C00D7645D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDB2196AE38C00D7645D /* libz.dylib */; };
+		BFE6CDB9196AE38C00D7645D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE6CDB3196AE38C00D7645D /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE6CD96196ADCB000D7645D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE6CD65196ADCB000D7645D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE6CD6C196ADCB000D7645D;
+			remoteInfo = Pebblue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF7272061A2C19F2005D6D0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF7B180319B026F100FD9B24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFDB54961A2C158C00F00ECE /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = Pebblue/PebbleKit.framework; sourceTree = "<group>"; };
+		BFDB54971A2C158C00F00ECE /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = Pebblue/PebbleVendor.framework; sourceTree = "<group>"; };
+		BFE6CD6D196ADCB000D7645D /* Pebblue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pebblue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE6CD70196ADCB000D7645D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFE6CD72196ADCB000D7645D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFE6CD74196ADCB000D7645D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFE6CD78196ADCB000D7645D /* Pebblue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pebblue-Info.plist"; sourceTree = "<group>"; };
+		BFE6CD7A196ADCB000D7645D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFE6CD7C196ADCB000D7645D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE6CD7E196ADCB000D7645D /* Pebblue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pebblue-Prefix.pch"; sourceTree = "<group>"; };
+		BFE6CD7F196ADCB000D7645D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFE6CD80196ADCB000D7645D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFE6CD86196ADCB000D7645D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE6CD88196ADCB000D7645D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFE6CD89196ADCB000D7645D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFE6CD8B196ADCB000D7645D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFE6CD91196ADCB000D7645D /* PebblueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebblueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE6CD92196ADCB000D7645D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFE6CD9A196ADCB000D7645D /* PebblueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebblueTests-Info.plist"; sourceTree = "<group>"; };
+		BFE6CD9C196ADCB000D7645D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFE6CD9E196ADCB000D7645D /* PebblueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebblueTests.m; sourceTree = "<group>"; };
+		BFE6CDAE196AE38C00D7645D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFE6CDAF196AE38C00D7645D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BFE6CDB0196AE38C00D7645D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BFE6CDB1196AE38C00D7645D /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		BFE6CDB2196AE38C00D7645D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFE6CDB3196AE38C00D7645D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE6CD6A196ADCB000D7645D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDB54981A2C158C00F00ECE /* PebbleKit.framework in Frameworks */,
+				BFDB54991A2C158C00F00ECE /* PebbleVendor.framework in Frameworks */,
+				BF7B180419B026F100FD9B24 /* QuartzCore.framework in Frameworks */,
+				BFE6CDB4196AE38C00D7645D /* CFNetwork.framework in Frameworks */,
+				BFE6CDB5196AE38C00D7645D /* CoreBluetooth.framework in Frameworks */,
+				BFE6CDB6196AE38C00D7645D /* CoreMotion.framework in Frameworks */,
+				BFE6CDB7196AE38C00D7645D /* ExternalAccessory.framework in Frameworks */,
+				BFE6CDB8196AE38C00D7645D /* libz.dylib in Frameworks */,
+				BFE6CDB9196AE38C00D7645D /* MessageUI.framework in Frameworks */,
+				BFE6CD73196ADCB000D7645D /* CoreGraphics.framework in Frameworks */,
+				BFE6CD75196ADCB000D7645D /* UIKit.framework in Frameworks */,
+				BFE6CD71196ADCB000D7645D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE6CD8E196ADCB000D7645D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6CD93196ADCB000D7645D /* XCTest.framework in Frameworks */,
+				BFE6CD95196ADCB000D7645D /* UIKit.framework in Frameworks */,
+				BFE6CD94196ADCB000D7645D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE6CD64196ADCB000D7645D = {
+			isa = PBXGroup;
+			children = (
+				BF7272061A2C19F2005D6D0A /* README.md */,
+				BFE6CD76196ADCB000D7645D /* Pebblue */,
+				BFE6CD98196ADCB000D7645D /* PebblueTests */,
+				BFE6CD6F196ADCB000D7645D /* Frameworks */,
+				BFE6CD6E196ADCB000D7645D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE6CD6E196ADCB000D7645D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6CD6D196ADCB000D7645D /* Pebblue.app */,
+				BFE6CD91196ADCB000D7645D /* PebblueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE6CD6F196ADCB000D7645D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB54961A2C158C00F00ECE /* PebbleKit.framework */,
+				BFDB54971A2C158C00F00ECE /* PebbleVendor.framework */,
+				BF7B180319B026F100FD9B24 /* QuartzCore.framework */,
+				BFE6CDAE196AE38C00D7645D /* CFNetwork.framework */,
+				BFE6CDAF196AE38C00D7645D /* CoreBluetooth.framework */,
+				BFE6CDB0196AE38C00D7645D /* CoreMotion.framework */,
+				BFE6CDB1196AE38C00D7645D /* ExternalAccessory.framework */,
+				BFE6CDB2196AE38C00D7645D /* libz.dylib */,
+				BFE6CDB3196AE38C00D7645D /* MessageUI.framework */,
+				BFE6CD70196ADCB000D7645D /* Foundation.framework */,
+				BFE6CD72196ADCB000D7645D /* CoreGraphics.framework */,
+				BFE6CD74196ADCB000D7645D /* UIKit.framework */,
+				BFE6CD92196ADCB000D7645D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE6CD76196ADCB000D7645D /* Pebblue */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6CD7F196ADCB000D7645D /* AppDelegate.h */,
+				BFE6CD80196ADCB000D7645D /* AppDelegate.m */,
+				BFE6CD85196ADCB000D7645D /* Main.storyboard */,
+				BFE6CD88196ADCB000D7645D /* ViewController.h */,
+				BFE6CD89196ADCB000D7645D /* ViewController.m */,
+				BFE6CD8B196ADCB000D7645D /* Images.xcassets */,
+				BFE6CD77196ADCB000D7645D /* Supporting Files */,
+			);
+			path = Pebblue;
+			sourceTree = "<group>";
+		};
+		BFE6CD77196ADCB000D7645D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6CD78196ADCB000D7645D /* Pebblue-Info.plist */,
+				BFE6CD79196ADCB000D7645D /* InfoPlist.strings */,
+				BFE6CD7C196ADCB000D7645D /* main.m */,
+				BFE6CD7E196ADCB000D7645D /* Pebblue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFE6CD98196ADCB000D7645D /* PebblueTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6CD9E196ADCB000D7645D /* PebblueTests.m */,
+				BFE6CD99196ADCB000D7645D /* Supporting Files */,
+			);
+			path = PebblueTests;
+			sourceTree = "<group>";
+		};
+		BFE6CD99196ADCB000D7645D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6CD9A196ADCB000D7645D /* PebblueTests-Info.plist */,
+				BFE6CD9B196ADCB000D7645D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE6CD6C196ADCB000D7645D /* Pebblue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE6CDA2196ADCB000D7645D /* Build configuration list for PBXNativeTarget "Pebblue" */;
+			buildPhases = (
+				BFE6CD69196ADCB000D7645D /* Sources */,
+				BFE6CD6A196ADCB000D7645D /* Frameworks */,
+				BFE6CD6B196ADCB000D7645D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pebblue;
+			productName = Pebblue;
+			productReference = BFE6CD6D196ADCB000D7645D /* Pebblue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE6CD90196ADCB000D7645D /* PebblueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE6CDA5196ADCB000D7645D /* Build configuration list for PBXNativeTarget "PebblueTests" */;
+			buildPhases = (
+				BFE6CD8D196ADCB000D7645D /* Sources */,
+				BFE6CD8E196ADCB000D7645D /* Frameworks */,
+				BFE6CD8F196ADCB000D7645D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE6CD97196ADCB000D7645D /* PBXTargetDependency */,
+			);
+			name = PebblueTests;
+			productName = PebblueTests;
+			productReference = BFE6CD91196ADCB000D7645D /* PebblueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE6CD65196ADCB000D7645D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					BFE6CD6C196ADCB000D7645D = {
+						DevelopmentTeam = 3EQ53VQVAG;
+					};
+					BFE6CD90196ADCB000D7645D = {
+						TestTargetID = BFE6CD6C196ADCB000D7645D;
+					};
+				};
+			};
+			buildConfigurationList = BFE6CD68196ADCB000D7645D /* Build configuration list for PBXProject "Pebblue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE6CD64196ADCB000D7645D;
+			productRefGroup = BFE6CD6E196ADCB000D7645D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE6CD6C196ADCB000D7645D /* Pebblue */,
+				BFE6CD90196ADCB000D7645D /* PebblueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE6CD6B196ADCB000D7645D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6CD87196ADCB000D7645D /* Main.storyboard in Resources */,
+				BFE6CD8C196ADCB000D7645D /* Images.xcassets in Resources */,
+				BFE6CD7B196ADCB000D7645D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE6CD8F196ADCB000D7645D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6CD9D196ADCB000D7645D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE6CD69196ADCB000D7645D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6CD8A196ADCB000D7645D /* ViewController.m in Sources */,
+				BFE6CD81196ADCB000D7645D /* AppDelegate.m in Sources */,
+				BFE6CD7D196ADCB000D7645D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE6CD8D196ADCB000D7645D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6CD9F196ADCB000D7645D /* PebblueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE6CD97196ADCB000D7645D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE6CD6C196ADCB000D7645D /* Pebblue */;
+			targetProxy = BFE6CD96196ADCB000D7645D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE6CD79196ADCB000D7645D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE6CD7A196ADCB000D7645D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFE6CD85196ADCB000D7645D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE6CD86196ADCB000D7645D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE6CD9B196ADCB000D7645D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE6CD9C196ADCB000D7645D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE6CDA0196ADCB000D7645D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE6CDA1196ADCB000D7645D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE6CDA3196ADCB000D7645D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/myktra/pebble-dev/PebbleSDK-2.6.1/PebbleKit-iOS",
+					"/Users/myktra/pebble-dev/PebbleSDK-2.7/PebbleKit-iOS",
+					"$(PROJECT_DIR)/Pebblue",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebblue/Pebblue-Prefix.pch";
+				INFOPLIST_FILE = "Pebblue/Pebblue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFE6CDA4196ADCB000D7645D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/myktra/pebble-dev/PebbleSDK-2.6.1/PebbleKit-iOS",
+					"/Users/myktra/pebble-dev/PebbleSDK-2.7/PebbleKit-iOS",
+					"$(PROJECT_DIR)/Pebblue",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebblue/Pebblue-Prefix.pch";
+				INFOPLIST_FILE = "Pebblue/Pebblue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFE6CDA6196ADCB000D7645D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pebblue.app/Pebblue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebblue/Pebblue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PebblueTests/PebblueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFE6CDA7196ADCB000D7645D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pebblue.app/Pebblue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pebblue/Pebblue-Prefix.pch";
+				INFOPLIST_FILE = "PebblueTests/PebblueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE6CD68196ADCB000D7645D /* Build configuration list for PBXProject "Pebblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE6CDA0196ADCB000D7645D /* Debug */,
+				BFE6CDA1196ADCB000D7645D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE6CDA2196ADCB000D7645D /* Build configuration list for PBXNativeTarget "Pebblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE6CDA3196ADCB000D7645D /* Debug */,
+				BFE6CDA4196ADCB000D7645D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE6CDA5196ADCB000D7645D /* Build configuration list for PBXNativeTarget "PebblueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE6CDA6196ADCB000D7645D /* Debug */,
+				BFE6CDA7196ADCB000D7645D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE6CD65196ADCB000D7645D /* Project object */;
+}
